@@ -1,2 +1,3 @@
-
-    int **ptr = &p;
+char getName(){
+    //     return name;
+    // }

@@ -8,18 +8,18 @@ int main()
     string s;
     cout<<"Enter the string : "<<endl;
     getline(cin, s);
-    int low=0;
-    int high = s.size() - 1;
+    int start=0;
+    int end = s.size() - 1;
     int flag=0;
-    while (low < high)
+    while (start < end)
     {
-        if (s[low]!=s[high])
+        if (s[start]!=s[end])
         {
             flag=1;
             break;
         }
-        low++;
-        high--;
+        start++;
+        end--;
         
     }
     if (flag==0)
